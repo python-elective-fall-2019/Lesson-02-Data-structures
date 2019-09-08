@@ -3,7 +3,7 @@
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
 
-"""Blabish exercise -- optional extra exercise.
+"""Blabish exercise.
 
 Read in the file specified on the command line.
 Do a simple split() on whitespace to obtain all the words in the file.
@@ -63,5 +63,4 @@ def main():
   print_mimic(dict, '')
 
 
-if __name__ == '__main__':
-  main()
+main()

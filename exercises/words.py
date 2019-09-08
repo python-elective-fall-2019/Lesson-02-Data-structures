@@ -43,37 +43,6 @@ import sys
 
 ###
 
-
-def print_words(filename):
-
-  words = helper(filename)
-
-  print(words)
-
-def helper(filename):
-  file = open(filename, 'r')
-  text = file.read()
-
-  text_list = text.split()
-
-  words = {}
-  # put every word into a dict as key and a number (count) as value
-  # if the word are already in the dict then increment the count
-
-  for word in text_list:    
-    if word in words:
-      words[word] += 1
-    else:
-      words[word] = 1
-  return words
-
-
-
-  #words =  helper(filename)
-
-def print_top(filename):
-  pass
-
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
 def main():
@@ -91,5 +60,4 @@ def main():
     print ('unknown option: ' + option)
     sys.exit(1)
 
-if __name__ == '__main__':
-  main()
+main()
