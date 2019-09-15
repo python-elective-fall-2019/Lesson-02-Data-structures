@@ -1,2 +1,7 @@
 teacher
-exercises/solution
+exercises/solution/*.txt
+exercises/solution/clbo
+exercises/solution/mimic.py
+exercises/solution/wordcount.py
+
+
